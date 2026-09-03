@@ -1,0 +1,30 @@
+# --- Core de Moodle: se clona aparte, no se versiona aqui ---
+/moodle/
+
+# --- Datos de Moodle: archivos de usuarios, sesiones, cache ---
+/moodledata/
+
+# --- Credenciales y configuracion local ---
+.env
+config.php
+docker-compose.override.yml
+
+# --- Respaldos de base de datos ---
+*.sql
+*.sql.gz
+/backups/
+
+# --- Dependencias ---
+/vendor/
+/node_modules/
+
+# --- Editores y SO ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
